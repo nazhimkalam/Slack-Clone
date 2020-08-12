@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { useStateValue } from '../../StateProvider';
 import db from '../../firebase';
 import firebase from 'firebase';
+import './ChatInput.css';
 
 function ChatInput({ channelName, channelID }) {
 	const [inputMessage, setInputMessage] = useState('');
@@ -20,6 +21,8 @@ function ChatInput({ channelName, channelID }) {
 				userImage: user.photoURL,
 			});
 		}
+
+		setInputMessage('');
 	};
 
 	return (
