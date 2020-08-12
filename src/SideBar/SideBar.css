@@ -4,7 +4,13 @@
 	max-width: 260px;
 	flex: 0.3;
 	color: white;
+	margin-bottom: 60px;
+	overflow-y: scroll;
 }
+.sideBar::-webkit-scrollbar {
+	display: none;
+}
+
 .sideBar__header {
 	display: flex;
 	border: 1px #49274b solid;
@@ -44,7 +50,7 @@
 	margin-top: 1px;
 	margin-right: 2px;
 }
-.sideBar > hr{
+.sideBar > hr {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	border: 1px solid #49274b;

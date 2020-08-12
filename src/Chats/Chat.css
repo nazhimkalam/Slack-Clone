@@ -3,7 +3,17 @@
 	flex-grow: 1;
 	overflow-y: scroll;
 	padding-bottom: 150px;
+	background-color: rgb(252, 252, 252);
 }
+.chat::-webkit-scrollbar {
+	width: 12px;
+}
+
+.chat::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+}
+
 .chat__header {
 	display: flex;
 	align-items: center;
@@ -25,6 +35,7 @@
 
 .chat__channelName {
 	display: flex;
+	align-items: center;
 	text-transform: lowercase;
 }
 
