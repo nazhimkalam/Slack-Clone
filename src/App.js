@@ -26,7 +26,11 @@ function App() {
 									<Chat />
 								</Route>
 								<Route path="/">
-									<h2>welcome</h2>
+									<div className="app__welcomeMsg">
+										<div>WELCOME TO SLACK</div>
+										<div>{user.displayName} !</div>
+										<div>😀</div>
+									</div>
 								</Route>
 							</Switch>
 						</div>
