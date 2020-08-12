@@ -1,0 +1,50 @@
+.sideBar {
+	background-color: var(--slack-color);
+	border: 1px #49274b solid;
+	max-width: 260px;
+	color: white;
+}
+.sideBar__header {
+	display: flex;
+	border: 1px #49274b solid;
+	padding: 13px;
+	padding-bottom: 10px;
+}
+
+/* targeting the pencil icon */
+.sideBar__header > .MuiSvgIcon-root {
+	padding: 8px;
+	color: #49274b;
+	font-size: 18px;
+	background-color: white;
+	border-radius: 50px;
+}
+
+.sideBar__info {
+	flex: 1;
+}
+
+.sideBar__info > h2 {
+	font-size: 15px;
+	font-weight: 900;
+	margin-bottom: 5px;
+}
+
+.sideBar__info > h3 {
+	display: flex;
+	align-items: center;
+	font-size: 13px;
+	font-weight: 400;
+}
+
+.sideBar__info > h3 > .MuiSvgIcon-root {
+	color: rgb(0, 255, 0);
+	font-size: 14px;
+	margin-top: 1px;
+	margin-right: 2px;
+}
+.sideBar > hr{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #49274b;
+}

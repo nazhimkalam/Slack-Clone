@@ -22,6 +22,7 @@
 
         npm i  @material-ui/core
         npm i  @material-ui/icons
+        npm i firebase
         
 
 **4. Run in VS terminal "npm i firebase" this will install all the dependencies of firebase into the project**
