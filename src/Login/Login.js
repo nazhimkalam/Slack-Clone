@@ -19,7 +19,8 @@ function Login() {
 				});
 			})
 			.catch((error) => {
-				alert(error.message);
+				console.log(error.message);
+				alert('Error occurred, please refresh the page');
 			});
 	};
 
