@@ -6,6 +6,22 @@
 	color: white;
 	margin-bottom: 60px;
 	overflow-y: scroll;
+
+	animation: sideBar-load 300ms ease-in 300ms;
+	animation-fill-mode: forwards;
+	transform: translateX(-20px);
+	opacity: 0;
+}
+
+@keyframes sideBar-load {
+	0% {
+		transform: translateX(-20px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateX(0px);
+		opacity: 1;
+	}
 }
 .sideBar::-webkit-scrollbar {
 	display: none;

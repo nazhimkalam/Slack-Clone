@@ -3,8 +3,22 @@
 	background-color: #f1f1f1;
 	display: grid;
 	place-items: center;
+	-webkit-animation: fadein 950ms;
 }
-
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+.login__container > p {
+	animation: animation 200ms ease-in 600ms;
+	animation-fill-mode: forwards;
+	transform: translateY(-20px);
+	opacity: 0;
+}
 .login__container {
 	padding: 100px;
 	min-width: 600px;
@@ -18,6 +32,22 @@
 	object-fit: contain;
 	height: 100px;
 	margin-bottom: 40px;
+
+	animation: animation 300ms ease-in 300ms;
+	animation-fill-mode: forwards;
+	transform: translateY(-20px);
+	opacity: 0;
+}
+
+@keyframes animation {
+	0% {
+		transform: translateY(-20px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0px);
+		opacity: 1;
+	}
 }
 
 .login__container > button {
@@ -42,6 +72,34 @@
 	color: #22b376;
 }
 
-.login__container > h1{
-    font-weight: 500;
+.login__container > h1 {
+	font-weight: 500;
+	animation: animation 200ms ease-in 500ms;
+	animation-fill-mode: forwards;
+	transform: translateY(-20px);
+	opacity: 0;
+}
+
+.login__container > button {
+	animation: bounce 500ms ease-in 500ms;
+	animation-fill-mode: forwards;
+	transform: translateY(-20px);
+	opacity: 0;
+}
+@keyframes bounce {
+	0% {
+		transform: translateY(-20px);
+		transform: scale(0);
+		opacity: 0;
+	}
+	90% {
+		transform: translateY(-5px);
+		transform: scale(1.2);
+		opacity: 1;
+	}
+	100% {
+		transform: translateY(0px);
+		transform: scale(1);
+		opacity: 1;
+	}
 }

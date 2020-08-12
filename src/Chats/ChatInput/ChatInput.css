@@ -6,15 +6,18 @@
 	position: relative;
 	display: flex;
 	justify-content: center;
+
+	-webkit-animation: fadein 2s;
 }
+
 
 .chatInput > form > input {
 	position: fixed;
 	bottom: 30px;
-    width: 60%;
-    font-size: 18px;
-    border: 1px solid gray;
-    border-radius: 3px;
+	width: 60%;
+	font-size: 18px;
+	border: 1px solid gray;
+	border-radius: 3px;
 	padding: 18px;
 }
 

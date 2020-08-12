@@ -5,6 +5,21 @@
 	padding: 10px 0px;
 	color: white;
 	background-color: var(--slack-color);
+
+	animation: header-load 300ms ease-in 300ms;
+	animation-fill-mode: forwards;
+	transform: translateY(-20px);
+	opacity: 0;
+}
+@keyframes header-load {
+	0% {
+		transform: translateY(-20px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0px);
+		opacity: 1;
+	}
 }
 .header__left {
 	display: flex;
@@ -34,8 +49,8 @@
 	background-color: transparent;
 	border: none;
 	outline: none;
-    text-align: center;
-    color: whitesmoke;
+	text-align: center;
+	color: whitesmoke;
 	min-width: 35vw;
 }
 

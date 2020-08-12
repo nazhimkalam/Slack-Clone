@@ -4,6 +4,16 @@
 	overflow-y: scroll;
 	padding-bottom: 150px;
 	background-color: rgb(252, 252, 252);
+
+	-webkit-animation: fadein 3s;
+}
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
 .chat::-webkit-scrollbar {
 	width: 12px;
