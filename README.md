@@ -50,7 +50,6 @@
            npm run build
            firebase deploy
 
-## Click [here]() to checkout the application.
 
 ---
 
