@@ -23,6 +23,7 @@
         npm i  @material-ui/core
         npm i  @material-ui/icons
         npm i firebase
+        npm i react-router-dom
         
 
 **4. Run in VS terminal "npm i firebase" this will install all the dependencies of firebase into the project**

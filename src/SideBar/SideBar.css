@@ -2,6 +2,7 @@
 	background-color: var(--slack-color);
 	border: 1px #49274b solid;
 	max-width: 260px;
+	flex: 0.3;
 	color: white;
 }
 .sideBar__header {
