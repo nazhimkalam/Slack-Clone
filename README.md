@@ -10,23 +10,9 @@
 
 ---
 
-## You should have the following node modules in order to create this application:
+## Open the VS terminal in the project and enter the code below to install all the dependencies 
 
-**1. Default node packages which comes when you create a new react project**
-
-        npm install
-
-**2. firebase tools (run in terminal, "npm install -g firebase-tools") and sudo before npm for MAC users**
-
-**3. Install the following dependencies**
-
-        npm i  @material-ui/core
-        npm i  @material-ui/icons
-        npm i firebase
-        npm i react-router-dom
-        
-
-**4. Run in VS terminal "npm i firebase" this will install all the dependencies of firebase into the project**
+           npm install
 
 ---
 
@@ -50,12 +36,9 @@
            npm run build
            firebase deploy
 
-
----
-
 # In order to run the application in development mode run,
 
-        npm start
+           npm start
 
 
 ### Runs the app in the development mode.
